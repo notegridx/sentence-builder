@@ -9,6 +9,10 @@
 
 https://notegridx.github.io/sentence-builder/
 
+## Screenshot
+
+![Sentence Builder screenshot](screenshots/main.png)
+
 ---
 
 ## 想定用途
