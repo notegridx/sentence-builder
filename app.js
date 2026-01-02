@@ -18,7 +18,6 @@ const el = {
   btnReset: document.getElementById("btnReset"),
   progressBar: document.getElementById("progressBar"),
   progressPct: document.getElementById("progressPct"),
-
 };
 
 // ===== State =====
@@ -39,16 +38,65 @@ let wrongCount = 0;         // 現在の問題の間違い回数
 let isShowingCorrectAnswer = false;  // 正解を表示中
 
 // ===== Utilities =====
-function speak(text) {
+
+// ---- iOS Safari/Chrome 対応：英語読み上げが日本語発音になる問題の対策 ----
+let cachedVoices = [];
+
+// iOSでは getVoices() が初回空になることがあるため、確実にロードする
+function loadVoices() {
+  if (!window.speechSynthesis) return Promise.resolve([]);
+  return new Promise((resolve) => {
+    const voices = window.speechSynthesis.getVoices();
+    if (voices && voices.length) {
+      cachedVoices = voices;
+      resolve(voices);
+      return;
+    }
+    window.speechSynthesis.onvoiceschanged = () => {
+      const v = window.speechSynthesis.getVoices();
+      cachedVoices = v || [];
+      resolve(cachedVoices);
+    };
+  });
+}
+
+function pickEnglishVoice(voices) {
+  if (!voices || voices.length === 0) return null;
+
+  // 優先順：en-US → en-GB → en-*（iOS/端末で差が出るため幅広く許容）
+  return (
+    voices.find(v => v.lang === "en-US") ||
+    voices.find(v => v.lang === "en-GB") ||
+    voices.find(v => String(v.lang || "").toLowerCase().startsWith("en-")) ||
+    null
+  );
+}
+
+async function speak(text) {
   if (!window.speechSynthesis) return;
+
+  const voices = cachedVoices.length ? cachedVoices : await loadVoices();
+
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = 'en-US'; // 英語
+  const enVoice = pickEnglishVoice(voices);
+
+  if (enVoice) {
+    utterance.voice = enVoice;
+    utterance.lang = enVoice.lang;
+  } else {
+    utterance.lang = "en-US"; // fallback
+  }
+
   utterance.rate = 0.8; // 少しゆっくり
+
   return new Promise((resolve) => {
     utterance.onend = resolve;
+    utterance.onerror = resolve; // エラー時も進行が止まらないように
+    window.speechSynthesis.cancel(); // iOSでは直前の発話/設定をクリアするのが重要
     window.speechSynthesis.speak(utterance);
   });
 }
+// ---- /iOS Safari/Chrome 対応 ----
 
 function normalizeText(s) {
   return s.replace(/\s+/g, " ").trim();
@@ -94,7 +142,6 @@ function flashAnswerArea(kind) {
     el.answer.classList.remove("flash-ok", "flash-ng");
   }, 220);
 }
-
 
 // ===== UI helpers (Bootstrap) =====
 function showToast(id, options = {}) {
@@ -208,7 +255,7 @@ function render() {
     el.bank.appendChild(chip);
   });
 
-    updateProgress();
+  updateProgress();
 }
 
 // ===== Game flow =====
@@ -236,7 +283,10 @@ function addWordFromBank(bankIndex) {
   if (isShowingCorrectAnswer) {
     // 正解表示中：次の正解単語と一致するかチェック
     const nextCorrectIndex = answerWords.length;
-    if (nextCorrectIndex >= correctWords.length || selectedWord !== correctWords[nextCorrectIndex]) {
+    if (
+      nextCorrectIndex >= correctWords.length ||
+      selectedWord !== correctWords[nextCorrectIndex]
+    ) {
       // 不一致：選ばない
       return;
     }
@@ -310,7 +360,6 @@ function judge() {
     speak(correct).then(() => {
       next();
     });
-
   } else {
     wrongCount++;
     if (wrongCount >= 2) {
@@ -367,6 +416,11 @@ window.addEventListener("keydown", (e) => {
 // ===== Init =====
 async function init() {
   try {
+    // 可能なら先に voice をロード（初回読み上げの安定化）
+    if (window.speechSynthesis) {
+      loadVoices().catch(() => {});
+    }
+
     const res = await fetch("./phrases.json", { cache: "no-store" });
     if (!res.ok) throw new Error(`Failed to load JSON: ${res.status}`);
     const data = await res.json();
@@ -378,6 +432,7 @@ async function init() {
     allPhrases = data;
     phrases = allPhrases;
     loadQuestion(0);
+
     // --- mobile dock support ---
     syncWordBankPlacement();
     bindDockOpenState();
@@ -421,9 +476,7 @@ categorySelect.addEventListener("change", () => {
   if (currentCategory === "all") {
     phrases = allPhrases;
   } else {
-    phrases = allPhrases.filter(
-      p => p.category === currentCategory
-    );
+    phrases = allPhrases.filter(p => p.category === currentCategory);
   }
 
   if (phrases.length === 0) {
@@ -434,5 +487,3 @@ categorySelect.addEventListener("change", () => {
 
   loadQuestion(0);
 });
-
-
