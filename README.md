@@ -9,9 +9,10 @@
 
 https://notegridx.github.io/sentence-builder/
 
+---
 ## Screenshot
 
-![Sentence Builder screenshot](screenshots/main.png)
+<img src="screenshots/main.png" alt="Sentence Builder UI" style="max-width: 600px; width: 60%; height: auto;">
 
 ---
 
