@@ -1,0 +1,1211 @@
+[
+  {
+    "id": "m001",
+    "category": "会議",
+    "ja": "会議を始めましょう。",
+    "text": "Let's get started with the meeting."
+  },
+  {
+    "id": "m002",
+    "category": "会議",
+    "ja": "まずアジェンダを確認します。",
+    "text": "First, let's go over the agenda."
+  },
+  {
+    "id": "m003",
+    "category": "会議",
+    "ja": "今日の目的を確認しておきたいです。",
+    "text": "I'd like to confirm today's objective."
+  },
+  {
+    "id": "m004",
+    "category": "会議",
+    "ja": "この点について意見はありますか？",
+    "text": "Any thoughts on this point?"
+  },
+  {
+    "id": "m005",
+    "category": "会議",
+    "ja": "今の話を要約すると、こういう理解で合っていますか？",
+    "text": "To summarize, is my understanding correct?"
+  },
+  {
+    "id": "m006",
+    "category": "会議",
+    "ja": "この件は後ほど時間を取って議論しましょう。",
+    "text": "Let's set aside time to discuss this later."
+  },
+  {
+    "id": "m007",
+    "category": "会議",
+    "ja": "少し話がそれたので本題に戻しましょう。",
+    "text": "We’ve gone a bit off topic—let’s get back to the main point."
+  },
+  {
+    "id": "m008",
+    "category": "会議",
+    "ja": "一旦ここで区切って次に進みましょう。",
+    "text": "Let’s wrap this up and move on."
+  },
+  {
+    "id": "m009",
+    "category": "会議",
+    "ja": "次の議題に移ってもよいですか？",
+    "text": "Can we move on to the next item?"
+  },
+  {
+    "id": "m010",
+    "category": "会議",
+    "ja": "時間が限られているので結論を出しましょう。",
+    "text": "Since time is limited, let's reach a conclusion."
+  },
+  {
+    "id": "m011",
+    "category": "会議",
+    "ja": "確認のため、決定事項を読み上げます。",
+    "text": "For clarity, I'll read out the decisions."
+  },
+  {
+    "id": "m012",
+    "category": "会議",
+    "ja": "次のアクションを整理しましょう。",
+    "text": "Let’s line up the next actions."
+  },
+  {
+    "id": "m013",
+    "category": "会議",
+    "ja": "担当者と期限を決めましょう。",
+    "text": "Let’s assign owners and due dates."
+  },
+  {
+    "id": "m014",
+    "category": "会議",
+    "ja": "その点、もう少し詳しく説明してもらえますか？",
+    "text": "Could you elaborate on that?"
+  },
+  {
+    "id": "m015",
+    "category": "会議",
+    "ja": "今の発言を補足してもいいですか？",
+    "text": "May I add something to that?"
+  },
+  {
+    "id": "m016",
+    "category": "会議",
+    "ja": "途中で遮ってすみません。",
+    "text": "Sorry to interrupt."
+  },
+  {
+    "id": "m017",
+    "category": "会議",
+    "ja": "その件は後でフォローします。",
+    "text": "I'll follow up on that later."
+  },
+  {
+    "id": "m018",
+    "category": "会議",
+    "ja": "会議の最後に質疑応答の時間を取りましょう。",
+    "text": "Let’s leave some time for Q&A at the end."
+  },
+  {
+    "id": "m019",
+    "category": "会議",
+    "ja": "今日の会議はここまでにしましょう。",
+    "text": "Let’s end the meeting here."
+  },
+  {
+    "id": "m020",
+    "category": "会議",
+    "ja": "参加ありがとうございました。",
+    "text": "Thanks everyone for joining."
+  },
+
+  {
+    "id": "u001",
+    "category": "進捗・状況",
+    "ja": "現在の進捗は計画通りです。",
+    "text": "We're on track with the current progress."
+  },
+  {
+    "id": "u002",
+    "category": "進捗・状況",
+    "ja": "少し遅れています。",
+    "text": "We're running slightly behind."
+  },
+  {
+    "id": "u003",
+    "category": "進捗・状況",
+    "ja": "遅れの原因は依存タスクです。",
+    "text": "The delay is due to a dependency."
+  },
+  {
+    "id": "u004",
+    "category": "進捗・状況",
+    "ja": "現時点のブロッカーはこれです。",
+    "text": "This is the main blocker at the moment."
+  },
+  {
+    "id": "u005",
+    "category": "進捗・状況",
+    "ja": "優先度を確認したいです。",
+    "text": "I'd like to confirm the priority."
+  },
+  {
+    "id": "u006",
+    "category": "進捗・状況",
+    "ja": "今日中に完了予定です。",
+    "text": "I expect to finish it by the end of today."
+  },
+  {
+    "id": "u007",
+    "category": "進捗・状況",
+    "ja": "明日までに完了できそうです。",
+    "text": "I should be able to complete it by tomorrow."
+  },
+  {
+    "id": "u008",
+    "category": "進捗・状況",
+    "ja": "見積もりを更新します。",
+    "text": "I'll update the estimate."
+  },
+  {
+    "id": "u009",
+    "category": "進捗・状況",
+    "ja": "スコープが少し増えています。",
+    "text": "The scope has expanded a bit."
+  },
+  {
+    "id": "u010",
+    "category": "進捗・状況",
+    "ja": "要件が変わったので再見積もりが必要です。",
+    "text": "The requirements changed, so we need to re-estimate."
+  },
+  {
+    "id": "u011",
+    "category": "進捗・状況",
+    "ja": "次のマイルストーンは来週です。",
+    "text": "The next milestone is next week."
+  },
+  {
+    "id": "u012",
+    "category": "進捗・状況",
+    "ja": "リリース日は変わりません。",
+    "text": "The release date remains unchanged."
+  },
+  {
+    "id": "u013",
+    "category": "進捗・状況",
+    "ja": "このタスクは待ち状態です。",
+    "text": "This task is currently on hold."
+  },
+  {
+    "id": "u014",
+    "category": "進捗・状況",
+    "ja": "レビュー待ちです。",
+    "text": "It's pending review."
+  },
+  {
+    "id": "u015",
+    "category": "進捗・状況",
+    "ja": "確認待ちです。",
+    "text": "It's pending confirmation."
+  },
+  {
+    "id": "u016",
+    "category": "進捗・状況",
+    "ja": "対応中です。",
+    "text": "I'm working on it."
+  },
+  {
+    "id": "u017",
+    "category": "進捗・状況",
+    "ja": "完了しました。",
+    "text": "It's done."
+  },
+  {
+    "id": "u018",
+    "category": "進捗・状況",
+    "ja": "未着手です。",
+    "text": "I haven't started it yet."
+  },
+  {
+    "id": "u019",
+    "category": "進捗・状況",
+    "ja": "想定より時間がかかっています。",
+    "text": "It's taking longer than expected."
+  },
+  {
+    "id": "u020",
+    "category": "進捗・状況",
+    "ja": "追加のリソースが必要かもしれません。",
+    "text": "We may need additional resources."
+  },
+
+  {
+    "id": "t001",
+    "category": "技術",
+    "ja": "この実装は拡張性を重視しています。",
+    "text": "This implementation prioritizes scalability."
+  },
+  {
+    "id": "t002",
+    "category": "技術",
+    "ja": "パフォーマンスと可読性のトレードオフがあります。",
+    "text": "There’s a trade-off between performance and readability."
+  },
+  {
+    "id": "t003",
+    "category": "技術",
+    "ja": "この設計は将来の変更に強いです。",
+    "text": "This design is resilient to future changes."
+  },
+  {
+    "id": "t004",
+    "category": "技術",
+    "ja": "この方法を選んだ理由は互換性のためです。",
+    "text": "We chose this approach for compatibility."
+  },
+  {
+    "id": "t005",
+    "category": "技術",
+    "ja": "ここは例外処理を強化する必要があります。",
+    "text": "We need stronger exception handling here."
+  },
+  {
+    "id": "t006",
+    "category": "技術",
+    "ja": "入力バリデーションを追加します。",
+    "text": "I'll add input validation."
+  },
+  {
+    "id": "t007",
+    "category": "技術",
+    "ja": "このAPIは後方互換を維持します。",
+    "text": "This API will remain backward compatible."
+  },
+  {
+    "id": "t008",
+    "category": "技術",
+    "ja": "この変更は破壊的変更になります。",
+    "text": "This change is a breaking change."
+  },
+  {
+    "id": "t009",
+    "category": "技術",
+    "ja": "キャッシュを使えばレイテンシを下げられます。",
+    "text": "We can reduce latency by using caching."
+  },
+  {
+    "id": "t010",
+    "category": "技術",
+    "ja": "ボトルネックはDBクエリです。",
+    "text": "The bottleneck is the database query."
+  },
+  {
+    "id": "t011",
+    "category": "技術",
+    "ja": "この処理は非同期にした方が良いです。",
+    "text": "This should be handled asynchronously."
+  },
+  {
+    "id": "t012",
+    "category": "技術",
+    "ja": "リトライは指数バックオフにします。",
+    "text": "We'll implement retries with exponential backoff."
+  },
+  {
+    "id": "t013",
+    "category": "技術",
+    "ja": "タイムアウト値は環境に依存します。",
+    "text": "The timeout value depends on the environment."
+  },
+  {
+    "id": "t014",
+    "category": "技術",
+    "ja": "ログレベルは本番ではINFOにします。",
+    "text": "We'll set the log level to INFO in production."
+  },
+  {
+    "id": "t015",
+    "category": "技術",
+    "ja": "このライブラリはメンテが活発です。",
+    "text": "This library is actively maintained."
+  },
+  {
+    "id": "t016",
+    "category": "技術",
+    "ja": "代替案としてA案とB案があります。",
+    "text": "As alternatives, we have option A and option B."
+  },
+  {
+    "id": "t017",
+    "category": "技術",
+    "ja": "この仕様はエッジケースに弱いです。",
+    "text": "This spec is weak around edge cases."
+  },
+  {
+    "id": "t018",
+    "category": "技術",
+    "ja": "この部分はリファクタリング対象です。",
+    "text": "This part should be refactored."
+  },
+  {
+    "id": "t019",
+    "category": "技術",
+    "ja": "データ整合性はトランザクションで担保します。",
+    "text": "We'll ensure data consistency with transactions."
+  },
+  {
+    "id": "t020",
+    "category": "技術",
+    "ja": "設計意図をドキュメントに残します。",
+    "text": "We'll document the design intent."
+  },
+
+  {
+    "id": "i001",
+    "category": "トラブル対応",
+    "ja": "不具合を再現できました。",
+    "text": "I was able to reproduce the issue."
+  },
+  {
+    "id": "i002",
+    "category": "トラブル対応",
+    "ja": "再現手順を共有します。",
+    "text": "I'll share the reproduction steps."
+  },
+  {
+    "id": "i003",
+    "category": "トラブル対応",
+    "ja": "ログを確認しています。",
+    "text": "I'm checking the logs."
+  },
+  {
+    "id": "i004",
+    "category": "トラブル対応",
+    "ja": "原因はまだ調査中です。",
+    "text": "We’re still investigating the root cause."
+  },
+  {
+    "id": "i005",
+    "category": "トラブル対応",
+    "ja": "暫定対応として回避策を適用しました。",
+    "text": "As a temporary measure, we applied a workaround."
+  },
+  {
+    "id": "i006",
+    "category": "トラブル対応",
+    "ja": "恒久対応は次のリリースで入れます。",
+    "text": "The permanent fix will go into the next release."
+  },
+  {
+    "id": "i007",
+    "category": "トラブル対応",
+    "ja": "影響範囲を評価しています。",
+    "text": "We’re assessing the impact."
+  },
+  {
+    "id": "i008",
+    "category": "トラブル対応",
+    "ja": "影響は限定的です。",
+    "text": "The impact is limited."
+  },
+  {
+    "id": "i009",
+    "category": "トラブル対応",
+    "ja": "影響が広い可能性があります。",
+    "text": "The impact could be widespread."
+  },
+  {
+    "id": "i010",
+    "category": "トラブル対応",
+    "ja": "ロールバックするのが安全です。",
+    "text": "Rolling back is the safest option."
+  },
+  {
+    "id": "i011",
+    "category": "トラブル対応",
+    "ja": "監視アラートが発報しました。",
+    "text": "A monitoring alert was triggered."
+  },
+  {
+    "id": "i012",
+    "category": "トラブル対応",
+    "ja": "エラー率が上がっています。",
+    "text": "The error rate is increasing."
+  },
+  {
+    "id": "i013",
+    "category": "トラブル対応",
+    "ja": "サービスが断続的に不安定です。",
+    "text": "The service is intermittently unstable."
+  },
+  {
+    "id": "i014",
+    "category": "トラブル対応",
+    "ja": "再起動で復旧しました。",
+    "text": "A restart restored the service."
+  },
+  {
+    "id": "i015",
+    "category": "トラブル対応",
+    "ja": "根本原因は設定ミスでした。",
+    "text": "The root cause was a misconfiguration."
+  },
+  {
+    "id": "i016",
+    "category": "トラブル対応",
+    "ja": "メモリリークの可能性があります。",
+    "text": "There may be a memory leak."
+  },
+  {
+    "id": "i017",
+    "category": "トラブル対応",
+    "ja": "負荷試験で再発します。",
+    "text": "It reproduces under load testing."
+  },
+  {
+    "id": "i018",
+    "category": "トラブル対応",
+    "ja": "証跡としてタイムラインをまとめます。",
+    "text": "I'll compile a timeline as evidence."
+  },
+  {
+    "id": "i019",
+    "category": "トラブル対応",
+    "ja": "再発防止策を提案します。",
+    "text": "I'll propose preventive measures."
+  },
+  {
+    "id": "i020",
+    "category": "トラブル対応",
+    "ja": "ポストモーテムを実施しましょう。",
+    "text": "Let’s run a postmortem."
+  },
+
+  {
+    "id": "c001",
+    "category": "調整・依頼",
+    "ja": "これを明日までに確認してもらえますか？",
+    "text": "Could you check this by tomorrow?"
+  },
+  {
+    "id": "c002",
+    "category": "調整・依頼",
+    "ja": "この件、優先度を上げてもよいですか？",
+    "text": "Can we raise the priority on this?"
+  },
+  {
+    "id": "c003",
+    "category": "調整・依頼",
+    "ja": "担当は誰になりますか？",
+    "text": "Who will be the owner for this?"
+  },
+  {
+    "id": "c004",
+    "category": "調整・依頼",
+    "ja": "このタスクを引き取れますか？",
+    "text": "Can you take this task?"
+  },
+  {
+    "id": "c005",
+    "category": "調整・依頼",
+    "ja": "この変更をマージしても大丈夫ですか？",
+    "text": "Is it okay to merge this change?"
+  },
+  {
+    "id": "c006",
+    "category": "調整・依頼",
+    "ja": "関連チームに連絡しておきます。",
+    "text": "I'll notify the related team."
+  },
+  {
+    "id": "c007",
+    "category": "調整・依頼",
+    "ja": "ステークホルダーに共有します。",
+    "text": "I'll share this with the stakeholders."
+  },
+  {
+    "id": "c008",
+    "category": "調整・依頼",
+    "ja": "少し時間をいただけますか？",
+    "text": "Could you give me a bit of time?"
+  },
+  {
+    "id": "c009",
+    "category": "調整・依頼",
+    "ja": "今日中は難しいので明日にしてもいいですか？",
+    "text": "I can't make it today—can we do it tomorrow?"
+  },
+  {
+    "id": "c010",
+    "category": "調整・依頼",
+    "ja": "期限を延ばせますか？",
+    "text": "Can we extend the deadline?"
+  },
+  {
+    "id": "c011",
+    "category": "調整・依頼",
+    "ja": "こちらで対応しておきます。",
+    "text": "I'll handle it on my side."
+  },
+  {
+    "id": "c012",
+    "category": "調整・依頼",
+    "ja": "必要ならサポートします。",
+    "text": "I'm happy to support if needed."
+  },
+  {
+    "id": "c013",
+    "category": "調整・依頼",
+    "ja": "すみません、今は別件で手が離せません。",
+    "text": "Sorry, I'm tied up with something else right now."
+  },
+  {
+    "id": "c014",
+    "category": "調整・依頼",
+    "ja": "この点について合意が必要です。",
+    "text": "We need alignment on this point."
+  },
+  {
+    "id": "c015",
+    "category": "調整・依頼",
+    "ja": "この件、確認してから返答します。",
+    "text": "I'll get back to you after I confirm."
+  },
+  {
+    "id": "c016",
+    "category": "調整・依頼",
+    "ja": "会議を30分入れて調整しませんか？",
+    "text": "Shall we schedule 30 minutes to align?"
+  },
+  {
+    "id": "c017",
+    "category": "調整・依頼",
+    "ja": "関連するチケットをリンクしました。",
+    "text": "I linked the related tickets."
+  },
+  {
+    "id": "c018",
+    "category": "調整・依頼",
+    "ja": "手順をドキュメントにまとめます。",
+    "text": "I'll document the procedure."
+  },
+  {
+    "id": "c019",
+    "category": "調整・依頼",
+    "ja": "担当を引き継ぎます。",
+    "text": "I'll take over ownership."
+  },
+  {
+    "id": "c020",
+    "category": "調整・依頼",
+    "ja": "状況が変わったらすぐ共有します。",
+    "text": "I'll share an update as soon as things change."
+  },
+
+  {
+    "id": "r001",
+    "category": "レビュー",
+    "ja": "全体として良いと思います。",
+    "text": "Overall, this looks good."
+  },
+  {
+    "id": "r002",
+    "category": "レビュー",
+    "ja": "一点だけ気になった点があります。",
+    "text": "There’s one thing that stood out to me."
+  },
+  {
+    "id": "r003",
+    "category": "レビュー",
+    "ja": "ここはもう少しシンプルにできそうです。",
+    "text": "This could probably be simplified."
+  },
+  {
+    "id": "r004",
+    "category": "レビュー",
+    "ja": "命名をもう少し明確にしたいです。",
+    "text": "I'd like the naming to be clearer."
+  },
+  {
+    "id": "r005",
+    "category": "レビュー",
+    "ja": "この関数は責務が多すぎます。",
+    "text": "This function has too many responsibilities."
+  },
+  {
+    "id": "r006",
+    "category": "レビュー",
+    "ja": "テストケースを追加できますか？",
+    "text": "Could you add test cases?"
+  },
+  {
+    "id": "r007",
+    "category": "レビュー",
+    "ja": "境界値のテストも入れましょう。",
+    "text": "Let’s include boundary tests as well."
+  },
+  {
+    "id": "r008",
+    "category": "レビュー",
+    "ja": "この部分はコメントがあると助かります。",
+    "text": "A comment here would be helpful."
+  },
+  {
+    "id": "r009",
+    "category": "レビュー",
+    "ja": "この変更の意図をPRに書いてください。",
+    "text": "Please describe the intent of this change in the PR."
+  },
+  {
+    "id": "r010",
+    "category": "レビュー",
+    "ja": "パフォーマンスへの影響はありますか？",
+    "text": "Is there any performance impact?"
+  },
+  {
+    "id": "r011",
+    "category": "レビュー",
+    "ja": "セキュリティ観点で確認したいです。",
+    "text": "I'd like to review this from a security standpoint."
+  },
+  {
+    "id": "r012",
+    "category": "レビュー",
+    "ja": "例外時の挙動を明確にしましょう。",
+    "text": "Let’s make the behavior on exceptions explicit."
+  },
+  {
+    "id": "r013",
+    "category": "レビュー",
+    "ja": "この条件分岐は抜けがありそうです。",
+    "text": "This conditional may miss some cases."
+  },
+  {
+    "id": "r014",
+    "category": "レビュー",
+    "ja": "このリファクタリングは賛成です。",
+    "text": "I'm in favor of this refactor."
+  },
+  {
+    "id": "r015",
+    "category": "レビュー",
+    "ja": "この実装は要件を満たしています。",
+    "text": "This implementation meets the requirements."
+  },
+  {
+    "id": "r016",
+    "category": "レビュー",
+    "ja": "別案としてこういう書き方もあります。",
+    "text": "As an alternative, we could write it like this."
+  },
+  {
+    "id": "r017",
+    "category": "レビュー",
+    "ja": "ここはNPEのリスクがあります。",
+    "text": "There’s a risk of a null pointer here."
+  },
+  {
+    "id": "r018",
+    "category": "レビュー",
+    "ja": "ログ出力を追加してもよいですか？",
+    "text": "Would it be okay to add logging here?"
+  },
+  {
+    "id": "r019",
+    "category": "レビュー",
+    "ja": "レビューありがとうございます。反映します。",
+    "text": "Thanks for the review—I'll address it."
+  },
+  {
+    "id": "r020",
+    "category": "レビュー",
+    "ja": "この指摘は修正済みです。",
+    "text": "This comment has been addressed."
+  },
+
+  {
+    "id": "d001",
+    "category": "意思決定",
+    "ja": "結論として、この案で進めたいです。",
+    "text": "In conclusion, I'd like to proceed with this option."
+  },
+  {
+    "id": "d002",
+    "category": "意思決定",
+    "ja": "意思決定の前提を揃えましょう。",
+    "text": "Let’s align on the assumptions before deciding."
+  },
+  {
+    "id": "d003",
+    "category": "意思決定",
+    "ja": "選択肢を整理すると3つあります。",
+    "text": "To organize the options, we have three."
+  },
+  {
+    "id": "d004",
+    "category": "意思決定",
+    "ja": "判断基準はコストとリスクです。",
+    "text": "The criteria are cost and risk."
+  },
+  {
+    "id": "d005",
+    "category": "意思決定",
+    "ja": "短期的にはA案が有利です。",
+    "text": "In the short term, option A is better."
+  },
+  {
+    "id": "d006",
+    "category": "意思決定",
+    "ja": "長期的にはB案が有利です。",
+    "text": "In the long term, option B is better."
+  },
+  {
+    "id": "d007",
+    "category": "意思決定",
+    "ja": "この点はトレードオフです。",
+    "text": "This is a trade-off."
+  },
+  {
+    "id": "d008",
+    "category": "意思決定",
+    "ja": "この判断はリスクを許容する必要があります。",
+    "text": "This decision requires accepting some risk."
+  },
+  {
+    "id": "d009",
+    "category": "意思決定",
+    "ja": "この件、誰が最終判断しますか？",
+    "text": "Who is the final decision-maker here?"
+  },
+  {
+    "id": "d010",
+    "category": "意思決定",
+    "ja": "合意が取れたと思います。",
+    "text": "I think we have alignment."
+  },
+  {
+    "id": "d011",
+    "category": "意思決定",
+    "ja": "認識違いがないか確認します。",
+    "text": "Let’s confirm there’s no misunderstanding."
+  },
+  {
+    "id": "d012",
+    "category": "意思決定",
+    "ja": "決定事項を文書化します。",
+    "text": "I'll document the decision."
+  },
+  {
+    "id": "d013",
+    "category": "意思決定",
+    "ja": "この方針で問題なければ進めます。",
+    "text": "If there are no objections, we’ll proceed."
+  },
+  {
+    "id": "d014",
+    "category": "意思決定",
+    "ja": "異論があれば今のうちに教えてください。",
+    "text": "If there are objections, please raise them now."
+  },
+  {
+    "id": "d015",
+    "category": "意思決定",
+    "ja": "リスクを減らすため段階的に進めましょう。",
+    "text": "Let’s proceed in phases to reduce risk."
+  },
+  {
+    "id": "d016",
+    "category": "意思決定",
+    "ja": "まずは小さく試してみます。",
+    "text": "We’ll start with a small pilot."
+  },
+  {
+    "id": "d017",
+    "category": "意思決定",
+    "ja": "後戻りできるように設計します。",
+    "text": "We’ll design it so we can roll back."
+  },
+  {
+    "id": "d018",
+    "category": "意思決定",
+    "ja": "意思決定は今日中に必要です。",
+    "text": "We need a decision by the end of today."
+  },
+  {
+    "id": "d019",
+    "category": "意思決定",
+    "ja": "この決定で影響を受ける範囲はここです。",
+    "text": "This is the scope impacted by the decision."
+  },
+  {
+    "id": "d020",
+    "category": "意思決定",
+    "ja": "次回までに情報を揃えて再検討しましょう。",
+    "text": "Let’s gather more info and revisit next time."
+  },
+
+  {
+    "id": "b001",
+    "category": "ビジネス",
+    "ja": "この要件はビジネス価値に直結します。",
+    "text": "This requirement directly ties to business value."
+  },
+  {
+    "id": "b002",
+    "category": "ビジネス",
+    "ja": "ユーザー影響を最優先に考えます。",
+    "text": "We'll prioritize user impact."
+  },
+  {
+    "id": "b003",
+    "category": "ビジネス",
+    "ja": "この変更はSLAに影響します。",
+    "text": "This change affects the SLA."
+  },
+  {
+    "id": "b004",
+    "category": "ビジネス",
+    "ja": "コスト増になる可能性があります。",
+    "text": "It may increase costs."
+  },
+  {
+    "id": "b005",
+    "category": "ビジネス",
+    "ja": "工数はおおよそ〇人日です。",
+    "text": "The effort is roughly X person-days."
+  },
+  {
+    "id": "b006",
+    "category": "ビジネス",
+    "ja": "リスクとしては主に2点あります。",
+    "text": "There are two main risks."
+  },
+  {
+    "id": "b007",
+    "category": "ビジネス",
+    "ja": "そのリスクを軽減する策はあります。",
+    "text": "We have mitigation measures for that risk."
+  },
+  {
+    "id": "b008",
+    "category": "ビジネス",
+    "ja": "このスコープでは要件を満たせません。",
+    "text": "With this scope, we can't meet the requirement."
+  },
+  {
+    "id": "b009",
+    "category": "ビジネス",
+    "ja": "スコープを調整する必要があります。",
+    "text": "We need to adjust the scope."
+  },
+  {
+    "id": "b010",
+    "category": "ビジネス",
+    "ja": "納期を守るには機能を絞る必要があります。",
+    "text": "To meet the deadline, we need to reduce features."
+  },
+  {
+    "id": "b011",
+    "category": "ビジネス",
+    "ja": "顧客に説明できる形にしましょう。",
+    "text": "Let’s make it explainable to the customer."
+  },
+  {
+    "id": "b012",
+    "category": "ビジネス",
+    "ja": "期待値を調整したいです。",
+    "text": "I'd like to reset expectations."
+  },
+  {
+    "id": "b013",
+    "category": "ビジネス",
+    "ja": "この点は契約上の制約があります。",
+    "text": "There are contractual constraints on this point."
+  },
+  {
+    "id": "b014",
+    "category": "ビジネス",
+    "ja": "追加要望は変更管理が必要です。",
+    "text": "Additional requests require change control."
+  },
+  {
+    "id": "b015",
+    "category": "ビジネス",
+    "ja": "優先順位をプロダクト側に確認します。",
+    "text": "We'll confirm priorities with the product side."
+  },
+  {
+    "id": "b016",
+    "category": "ビジネス",
+    "ja": "この指標で成功を測ります。",
+    "text": "We'll measure success with this metric."
+  },
+  {
+    "id": "b017",
+    "category": "ビジネス",
+    "ja": "運用コストも考慮しましょう。",
+    "text": "Let’s consider operational costs as well."
+  },
+  {
+    "id": "b018",
+    "category": "ビジネス",
+    "ja": "監査対応の観点も必要です。",
+    "text": "We also need an audit-ready perspective."
+  },
+  {
+    "id": "b019",
+    "category": "ビジネス",
+    "ja": "ビジネス上の期限は動かせません。",
+    "text": "The business deadline is fixed."
+  },
+  {
+    "id": "b020",
+    "category": "ビジネス",
+    "ja": "関係者への周知をお願いします。",
+    "text": "Please communicate this to the stakeholders."
+  },
+
+  {
+    "id": "p001",
+    "category": "雑談",
+    "ja": "そちらの調子はどうですか？",
+    "text": "How are things on your side?"
+  },
+  {
+    "id": "p002",
+    "category": "雑談",
+    "ja": "最近忙しいですか？",
+    "text": "Have you been busy lately?"
+  },
+  {
+    "id": "p003",
+    "category": "雑談",
+    "ja": "今週末は何か予定ありますか？",
+    "text": "Any plans for the weekend?"
+  },
+  {
+    "id": "p004",
+    "category": "雑談",
+    "ja": "今日はそちらは何時ですか？",
+    "text": "What time is it over there?"
+  },
+  {
+    "id": "p005",
+    "category": "雑談",
+    "ja": "天気はどうですか？",
+    "text": "How’s the weather?"
+  },
+  {
+    "id": "p006",
+    "category": "雑談",
+    "ja": "休暇は取れそうですか？",
+    "text": "Are you able to take some time off?"
+  },
+  {
+    "id": "p007",
+    "category": "雑談",
+    "ja": "最近何か面白いことありました？",
+    "text": "Anything interesting happening recently?"
+  },
+  {
+    "id": "p008",
+    "category": "雑談",
+    "ja": "その件、助かりました。ありがとう。",
+    "text": "That was really helpful—thanks."
+  },
+  {
+    "id": "p009",
+    "category": "雑談",
+    "ja": "今日は参加できてよかったです。",
+    "text": "Glad I could join today."
+  },
+  {
+    "id": "p010",
+    "category": "雑談",
+    "ja": "少し音声が途切れています。",
+    "text": "Your audio is cutting out a bit."
+  },
+  {
+    "id": "p011",
+    "category": "雑談",
+    "ja": "画面共有できますか？",
+    "text": "Could you share your screen?"
+  },
+  {
+    "id": "p012",
+    "category": "雑談",
+    "ja": "こちらの声は聞こえますか？",
+    "text": "Can you hear me okay?"
+  },
+  {
+    "id": "p013",
+    "category": "雑談",
+    "ja": "一瞬ミュートでした。",
+    "text": "I was muted for a second."
+  },
+  {
+    "id": "p014",
+    "category": "雑談",
+    "ja": "カメラはオフでも大丈夫です。",
+    "text": "It's fine to keep the camera off."
+  },
+  {
+    "id": "p015",
+    "category": "雑談",
+    "ja": "次の会議まで少し休憩しましょう。",
+    "text": "Let’s take a quick break before the next meeting."
+  },
+  {
+    "id": "p016",
+    "category": "雑談",
+    "ja": "今日は早めに切り上げます。",
+    "text": "I’ll wrap up a bit early today."
+  },
+  {
+    "id": "p017",
+    "category": "雑談",
+    "ja": "返信遅れてすみません。",
+    "text": "Sorry for the late reply."
+  },
+  {
+    "id": "p018",
+    "category": "雑談",
+    "ja": "お忙しいところありがとうございます。",
+    "text": "Thanks for making time."
+  },
+  {
+    "id": "p019",
+    "category": "雑談",
+    "ja": "年末年始はゆっくりできますか？",
+    "text": "Can you relax over the holidays?"
+  },
+  {
+    "id": "p020",
+    "category": "雑談",
+    "ja": "それでは良い一日を。",
+    "text": "Have a great day."
+  },
+
+  {
+    "id": "e001",
+    "category": "クッション表現",
+    "ja": "確認のため、理解が合っているか教えてください。",
+    "text": "Just to confirm, could you tell me if I’m understanding this correctly?"
+  },
+  {
+    "id": "e002",
+    "category": "クッション表現",
+    "ja": "もし間違っていたらすみませんが、",
+    "text": "I might be wrong, but…"
+  },
+  {
+    "id": "e003",
+    "category": "クッション表現",
+    "ja": "念のためもう一度言ってもらえますか？",
+    "text": "Could you say that again, just in case?"
+  },
+  {
+    "id": "e004",
+    "category": "クッション表現",
+    "ja": "少しゆっくり話してもらえますか？",
+    "text": "Could you speak a bit more slowly?"
+  },
+  {
+    "id": "e005",
+    "category": "クッション表現",
+    "ja": "その言葉の意味を確認してもいいですか？",
+    "text": "Can I check what that term means?"
+  },
+  {
+    "id": "e006",
+    "category": "クッション表現",
+    "ja": "今の点をもう少し噛み砕いて説明できますか？",
+    "text": "Could you break that down a bit more?"
+  },
+  {
+    "id": "e007",
+    "category": "クッション表現",
+    "ja": "後で文章でも共有してもらえますか？",
+    "text": "Could you share that in writing later?"
+  },
+  {
+    "id": "e008",
+    "category": "クッション表現",
+    "ja": "私の理解ではこうですが、合っていますか？",
+    "text": "As I understand it, it’s like this—am I right?"
+  },
+  {
+    "id": "e009",
+    "category": "クッション表現",
+    "ja": "少し考える時間をください。",
+    "text": "Could you give me a moment to think?"
+  },
+  {
+    "id": "e010",
+    "category": "クッション表現",
+    "ja": "今すぐ答えられません。確認して戻ります。",
+    "text": "I can't answer right away—I'll check and get back to you."
+  },
+  {
+    "id": "e011",
+    "category": "クッション表現",
+    "ja": "その点は把握できていませんでした。",
+    "text": "I wasn't aware of that point."
+  },
+  {
+    "id": "e012",
+    "category": "クッション表現",
+    "ja": "言い方が適切でなければすみません。",
+    "text": "Sorry if I'm not phrasing this well."
+  },
+  {
+    "id": "e013",
+    "category": "クッション表現",
+    "ja": "もう少し具体例を出してもらえますか？",
+    "text": "Could you give a concrete example?"
+  },
+  {
+    "id": "e014",
+    "category": "クッション表現",
+    "ja": "ここは仮の案として提案します。",
+    "text": "I'm proposing this as a tentative idea."
+  },
+  {
+    "id": "e015",
+    "category": "クッション表現",
+    "ja": "違う意見もあるかもしれませんが、",
+    "text": "There may be other views, but…"
+  },
+  {
+    "id": "e016",
+    "category": "クッション表現",
+    "ja": "その点については同意します。",
+    "text": "I agree with that point."
+  },
+  {
+    "id": "e017",
+    "category": "クッション表現",
+    "ja": "そこは懸念があります。",
+    "text": "I have some concerns there."
+  },
+  {
+    "id": "e018",
+    "category": "クッション表現",
+    "ja": "優先度の認識を揃えたいです。",
+    "text": "I'd like to align on the priority."
+  },
+  {
+    "id": "e019",
+    "category": "クッション表現",
+    "ja": "合意できる落とし所を探しましょう。",
+    "text": "Let’s find a compromise we can agree on."
+  },
+  {
+    "id": "e020",
+    "category": "クッション表現",
+    "ja": "必要なら後でフォローアップします。",
+    "text": "I can follow up later if needed."
+  }
+]
